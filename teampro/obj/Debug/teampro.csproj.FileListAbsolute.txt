@@ -1,0 +1,10 @@
+C:\Users\MOON\Desktop\teampro\bin\Debug\teampro.exe.config
+C:\Users\MOON\Desktop\teampro\bin\Debug\teampro.exe
+C:\Users\MOON\Desktop\teampro\bin\Debug\teampro.pdb
+C:\Users\MOON\Desktop\teampro\obj\Debug\teampro.csprojAssemblyReference.cache
+C:\Users\MOON\Desktop\teampro\obj\Debug\teampro.Form1.resources
+C:\Users\MOON\Desktop\teampro\obj\Debug\teampro.Properties.Resources.resources
+C:\Users\MOON\Desktop\teampro\obj\Debug\teampro.csproj.GenerateResource.cache
+C:\Users\MOON\Desktop\teampro\obj\Debug\teampro.csproj.CoreCompileInputs.cache
+C:\Users\MOON\Desktop\teampro\obj\Debug\teampro.exe
+C:\Users\MOON\Desktop\teampro\obj\Debug\teampro.pdb
