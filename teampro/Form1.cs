@@ -20,6 +20,9 @@ namespace teampro
         bool setOpened = false;
         bool coinOpened = false;
         bool newsOpened = false;
+
+        // 위치 설정용 변수
+        public int positon = 3;
         
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
 
@@ -58,6 +61,12 @@ namespace teampro
                 }
                 catch (InvalidCastException) { }
             }
+
+            // 메인폼 우측 상단 위치
+            int screenWidth = Screen.PrimaryScreen.WorkingArea.Width;
+            int screenHeight = Screen.PrimaryScreen.WorkingArea.Height;
+
+            this.Location = new Point(screenWidth - this.Width, 0);
 
             // 메인 폼 오픈 - 뉴스 폼 오픈
             newsForm = new News();

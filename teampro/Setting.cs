@@ -18,10 +18,61 @@ namespace teampro
         {
             InitializeComponent();
         }
-     
-        private void chkTransparency_CheckedChanged(object sender, EventArgs e)
+
+        private void Setting_Load(object sender, EventArgs e)
         {
-            if(chkOpacity.Checked)
+            // 최상단 상태 불러오기
+            if(mainForm.TopMost)
+            {
+                chkTop.Checked = true;
+            }
+            else
+            {
+                chkTop.Checked = false;
+            }
+
+            // 위치 불러오기
+            switch (mainForm.positon)
+            {
+                case 1:
+                    radioButton1.Checked = true;
+                    break;
+                case 2:
+                    radioButton2.Checked = true;
+                    break;
+                case 3:
+                    radioButton3.Checked = true;
+                    break;
+                case 4:
+                    radioButton4.Checked = true;
+                    break;
+            }
+        }
+
+        // 다크모드 체크
+        private void chkDarkMode_CheckedChanged(object sender, EventArgs e)
+        {
+        }
+
+        // 항상 위 체크
+        private void chkTop_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkTop.Checked)
+            {
+                mainForm.TopMost = true;
+                labelTopMost.Visible = true;
+            }
+            else
+            {
+                mainForm.TopMost = false;
+                labelTopMost.Visible = false;
+            }
+        }
+
+        // 투명도 체크
+        private void chkOpacity_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkOpacity.Checked)
             {
                 Opacity.Visible = true;
                 labelTransparency.Visible = true;
@@ -37,37 +88,60 @@ namespace teampro
             }
         }
 
-        private void Setting_Load(object sender, EventArgs e)
+        // 창 위치 체크
+        private void chkPosition_CheckedChanged(object sender, EventArgs e)
         {
-            if(mainForm.TopMost)
+            if (chkPosition.Checked)
             {
-                chkTop.Checked = true;
+                radioButton1.Visible = true;
+                radioButton2.Visible = true;
+                radioButton3.Visible = true;
+                radioButton4.Visible = true;
             }
             else
             {
-                chkTop.Checked = false;
+                radioButton1.Visible = false;
+                radioButton2.Visible = false;
+                radioButton3.Visible = false;
+                radioButton4.Visible = false;
             }
+
         }
 
-        private void chkDarkMode_CheckedChanged(object sender, EventArgs e)
-        {
-        }
-
+        // 투명도 변경
         private void Opacity_Scroll(object sender, ScrollEventArgs e)
         {
             labelTransparency.Text = Opacity.Value.ToString();
             mainForm.Opacity = Opacity.Value * 0.01;
         }
 
-        private void chkTop_CheckedChanged(object sender, EventArgs e)
+
+        // 위치 변경
+        private void position_CheckedChanged(object sender, EventArgs e)
         {
-            if (chkTop.Checked)
+            RadioButton rbtn = sender as RadioButton;
+
+            int screenWidth = Screen.PrimaryScreen.WorkingArea.Width;
+            int screenHeight = Screen.PrimaryScreen.WorkingArea.Height;
+
+            switch (rbtn.Text)
             {
-                mainForm.TopMost = true;
-            }
-            else
-            {
-                mainForm.TopMost = false;
+                case "좌측상단":
+                    mainForm.Location = new Point(0, 0);
+                    mainForm.positon = 1;
+                    break;
+                case "좌측하단":
+                    mainForm.Location = new Point(0, screenHeight - mainForm.Height);
+                    mainForm.positon = 2;
+                    break;
+                case "우측상단":
+                    mainForm.Location = new Point(screenWidth - mainForm.Width, 0);
+                    mainForm.positon = 3;
+                    break;
+                case "우측하단":
+                    mainForm.Location = new Point(screenWidth - mainForm.Width, screenHeight - mainForm.Height);
+                    mainForm.positon = 4;
+                    break;
             }
         }
     }
