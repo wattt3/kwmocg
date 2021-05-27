@@ -33,6 +33,7 @@ namespace teampro
                int nHeightEllipse
 
          );
+
         public Form1()
         {
             InitializeComponent();
@@ -151,6 +152,7 @@ namespace teampro
                 setForm = new Setting();
                 setForm.MdiParent = this;
                 setOpened = true;
+                setForm.mainForm = this;
                 setForm.Show();
 
                 pnlMain.Height = btnSettings.Height;
@@ -180,6 +182,11 @@ namespace teampro
         private void btnSettings_Leave_1(object sender, EventArgs e)
         {
             btnSettings.BackColor = Color.FromArgb(47, 79, 79);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }

@@ -38,9 +38,9 @@ namespace teampro
             this.label1.Font = new System.Drawing.Font("배달의민족 주아", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label1.Location = new System.Drawing.Point(37, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(281, 37);
+            this.label1.Size = new System.Drawing.Size(181, 37);
             this.label1.TabIndex = 1;
-            this.label1.Text = "News Form 입니다.";
+            this.label1.Text = "News Form";
             // 
             // News
             // 

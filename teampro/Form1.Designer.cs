@@ -34,12 +34,14 @@ namespace teampro
             this.btnSettings = new System.Windows.Forms.Button();
             this.btnCOINS = new System.Windows.Forms.Button();
             this.btnNEWS = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.pnlMain.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlMain
             // 
             this.pnlMain.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.pnlMain.Controls.Add(this.button2);
             this.pnlMain.Controls.Add(this.button1);
             this.pnlMain.Controls.Add(this.btnSettings);
             this.pnlMain.Controls.Add(this.btnCOINS);
@@ -59,7 +61,7 @@ namespace teampro
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(763, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(25, 25);
+            this.button1.Size = new System.Drawing.Size(25, 31);
             this.button1.TabIndex = 1;
             this.button1.Text = "X";
             this.button1.UseVisualStyleBackColor = true;
@@ -119,6 +121,23 @@ namespace teampro
             this.btnNEWS.Click += new System.EventHandler(this.btnNEWS_Click);
             this.btnNEWS.Leave += new System.EventHandler(this.btnNEWS_Leave_1);
             // 
+            // button2
+            // 
+            this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("배달의민족 도현", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button2.Location = new System.Drawing.Point(734, 12);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(25, 31);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "_";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -129,6 +148,7 @@ namespace teampro
             this.Controls.Add(this.pnlMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IsMdiContainer = true;
+            this.Location = new System.Drawing.Point(100, 100);
             this.MaximumSize = new System.Drawing.Size(1600, 1000);
             this.MinimizeBox = false;
             this.Name = "Form1";
@@ -144,10 +164,11 @@ namespace teampro
         #endregion
 
         private System.Windows.Forms.Panel pnlMain;
-        private System.Windows.Forms.Button btnSettings;
-        private System.Windows.Forms.Button btnCOINS;
-        private System.Windows.Forms.Button btnNEWS;
         private System.Windows.Forms.Button button1;
+        public System.Windows.Forms.Button btnSettings;
+        public System.Windows.Forms.Button btnCOINS;
+        public System.Windows.Forms.Button btnNEWS;
+        private System.Windows.Forms.Button button2;
     }
 }
 

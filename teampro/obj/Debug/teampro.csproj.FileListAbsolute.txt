@@ -21,3 +21,16 @@ C:\Users\Seungchan On\Desktop\teampro\obj\Debug\teampro.pdb
 C:\Users\Seungchan On\Desktop\teampro\obj\Debug\teampro.Setting.resources
 C:\Users\Seungchan On\Desktop\teampro\obj\Debug\teampro.Coin.resources
 C:\Users\Seungchan On\Desktop\teampro\obj\Debug\teampro.News.resources
+C:\Users\Seungchan On\Desktop\kwmocg-main\teampro\bin\Debug\teampro.exe.config
+C:\Users\Seungchan On\Desktop\kwmocg-main\teampro\bin\Debug\teampro.exe
+C:\Users\Seungchan On\Desktop\kwmocg-main\teampro\bin\Debug\teampro.pdb
+C:\Users\Seungchan On\Desktop\kwmocg-main\teampro\obj\Debug\teampro.csprojAssemblyReference.cache
+C:\Users\Seungchan On\Desktop\kwmocg-main\teampro\obj\Debug\teampro.Coin.resources
+C:\Users\Seungchan On\Desktop\kwmocg-main\teampro\obj\Debug\teampro.Form1.resources
+C:\Users\Seungchan On\Desktop\kwmocg-main\teampro\obj\Debug\teampro.News.resources
+C:\Users\Seungchan On\Desktop\kwmocg-main\teampro\obj\Debug\teampro.Properties.Resources.resources
+C:\Users\Seungchan On\Desktop\kwmocg-main\teampro\obj\Debug\teampro.Setting.resources
+C:\Users\Seungchan On\Desktop\kwmocg-main\teampro\obj\Debug\teampro.csproj.GenerateResource.cache
+C:\Users\Seungchan On\Desktop\kwmocg-main\teampro\obj\Debug\teampro.csproj.CoreCompileInputs.cache
+C:\Users\Seungchan On\Desktop\kwmocg-main\teampro\obj\Debug\teampro.exe
+C:\Users\Seungchan On\Desktop\kwmocg-main\teampro\obj\Debug\teampro.pdb
