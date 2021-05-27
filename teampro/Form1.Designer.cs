@@ -52,6 +52,7 @@ namespace teampro
             // 
             // button1
             // 
+            this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("배달의민족 주아", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -127,6 +128,7 @@ namespace teampro
             this.ClientSize = new System.Drawing.Size(800, 500);
             this.Controls.Add(this.pnlMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.IsMdiContainer = true;
             this.MaximumSize = new System.Drawing.Size(1600, 1000);
             this.MinimizeBox = false;
             this.Name = "Form1";
