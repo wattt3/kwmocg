@@ -23,7 +23,12 @@ namespace teampro
 
         // 위치 설정용 변수
         public int positon = 3;
-        
+
+        // 다크 모드
+        public bool darkMode = false;
+        public int lightColor_R = 95, lightColor_G = 158, lightColor_B = 160;
+        public int darkColor_R = 47, darkColor_G = 79, darkColor_B = 79;
+
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
 
         private static extern IntPtr CreateRoundRectRgn
@@ -44,7 +49,7 @@ namespace teampro
             pnlMain.Height = btnNEWS.Height;
             pnlMain.Top = btnNEWS.Top;
             pnlMain.Left = btnNEWS.Left;
-            btnNEWS.BackColor = Color.FromArgb(95, 158, 160);
+            btnNEWS.BackColor = Color.FromArgb(lightColor_R, lightColor_G, lightColor_B);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -71,6 +76,7 @@ namespace teampro
             // 메인 폼 오픈 - 뉴스 폼 오픈
             newsForm = new News();
             newsForm.MdiParent = this;
+            newsForm.mainForm = this;
             newsOpened = true;
             newsForm.Show();
         }
@@ -96,14 +102,15 @@ namespace teampro
                 newsForm = new News();
                 newsForm.MdiParent = this;
                 newsOpened = true;
+                newsForm.mainForm = this;
                 newsForm.Show();
 
                 pnlMain.Height = btnNEWS.Height;
                 pnlMain.Top = btnNEWS.Top;
                 pnlMain.Left = btnNEWS.Left;
-                btnNEWS.BackColor = Color.FromArgb(95, 158, 160);
-                btnCOINS.BackColor = Color.FromArgb(47, 79, 79);
-                btnSettings.BackColor = Color.FromArgb(47, 79, 79);
+                btnNEWS.BackColor = Color.FromArgb(lightColor_R, lightColor_G, lightColor_B);
+                btnCOINS.BackColor = Color.FromArgb(darkColor_R, darkColor_G, darkColor_B);
+                btnSettings.BackColor = Color.FromArgb(darkColor_R, darkColor_G, darkColor_B);
             }
 
 
@@ -129,14 +136,15 @@ namespace teampro
                 coinForm = new Coin();
                 coinForm.MdiParent = this;
                 coinOpened = true;
+                coinForm.mainForm = this;
                 coinForm.Show();
 
                 pnlMain.Height = btnCOINS.Height;
                 pnlMain.Top = btnCOINS.Top;
                 pnlMain.Left = btnNEWS.Left;
-                btnCOINS.BackColor = Color.FromArgb(95, 158, 160);
-                btnNEWS.BackColor = Color.FromArgb(47, 79, 79);
-                btnSettings.BackColor = Color.FromArgb(47, 79, 79);
+                btnCOINS.BackColor = Color.FromArgb(lightColor_R, lightColor_G, lightColor_B);
+                btnNEWS.BackColor = Color.FromArgb(darkColor_R, darkColor_G, darkColor_B);
+                btnSettings.BackColor = Color.FromArgb(darkColor_R, darkColor_G, darkColor_B);
             }
 
         }
@@ -167,9 +175,9 @@ namespace teampro
                 pnlMain.Height = btnSettings.Height;
                 pnlMain.Top = btnSettings.Top;
                 pnlMain.Left = btnNEWS.Left;
-                btnSettings.BackColor = Color.FromArgb(95, 158, 160);
-                btnNEWS.BackColor = Color.FromArgb(47, 79, 79);
-                btnCOINS.BackColor = Color.FromArgb(47, 79, 79);
+                btnSettings.BackColor = Color.FromArgb(lightColor_R, lightColor_G, lightColor_B);
+                btnNEWS.BackColor = Color.FromArgb(darkColor_R, darkColor_G, darkColor_B);
+                btnCOINS.BackColor = Color.FromArgb(darkColor_R, darkColor_G, darkColor_B);
             }
         }
 
@@ -180,17 +188,17 @@ namespace teampro
 
         private void btnNEWS_Leave_1(object sender, EventArgs e)
         {
-            btnNEWS.BackColor = Color.FromArgb(47, 79, 79);
+            btnNEWS.BackColor = Color.FromArgb(darkColor_R, darkColor_G, darkColor_B);
         }
 
         private void btnCOINS_Leave_1(object sender, EventArgs e)
         {
-            btnCOINS.BackColor = Color.FromArgb(47, 79, 79);
+            btnCOINS.BackColor = Color.FromArgb(darkColor_R, darkColor_G, darkColor_B);
         }
 
         private void btnSettings_Leave_1(object sender, EventArgs e)
         {
-            btnSettings.BackColor = Color.FromArgb(47, 79, 79);
+            btnSettings.BackColor = Color.FromArgb(darkColor_R, darkColor_G, darkColor_B);
         }
 
         private void button2_Click(object sender, EventArgs e)

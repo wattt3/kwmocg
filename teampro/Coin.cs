@@ -12,9 +12,23 @@ namespace teampro
 {
     public partial class Coin : Form
     {
+        public Form1 mainForm;
+
         public Coin()
         {
             InitializeComponent();
+        }
+
+        private void Coin_Load(object sender, EventArgs e)
+        {
+            if (mainForm.darkMode)
+            {
+                this.BackColor = Color.FromArgb(90, 90, 90);
+            }
+            else
+            {
+                this.BackColor = Color.FromArgb(95, 158, 160);
+            }
         }
     }
 }

@@ -48,9 +48,8 @@ namespace teampro
             this.pnlMain.Controls.Add(this.btnNEWS);
             this.pnlMain.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlMain.Location = new System.Drawing.Point(0, 0);
-            this.pnlMain.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(650, 86);
+            this.pnlMain.Size = new System.Drawing.Size(569, 69);
             this.pnlMain.TabIndex = 0;
             // 
             // button2
@@ -61,10 +60,9 @@ namespace teampro
             this.button2.Font = new System.Drawing.Font("배달의민족 도현", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button2.Location = new System.Drawing.Point(572, 13);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button2.Location = new System.Drawing.Point(500, 10);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(29, 39);
+            this.button2.Size = new System.Drawing.Size(25, 31);
             this.button2.TabIndex = 2;
             this.button2.Text = "_";
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -78,10 +76,9 @@ namespace teampro
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("배달의민족 주아", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(605, 13);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Location = new System.Drawing.Point(529, 10);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(29, 39);
+            this.button1.Size = new System.Drawing.Size(25, 31);
             this.button1.TabIndex = 1;
             this.button1.Text = "X";
             this.button1.UseVisualStyleBackColor = true;
@@ -95,10 +92,9 @@ namespace teampro
             this.btnSettings.Font = new System.Drawing.Font("배달의민족 주아", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnSettings.ForeColor = System.Drawing.Color.White;
             this.btnSettings.Image = global::teampro.Properties.Resources.Settings;
-            this.btnSettings.Location = new System.Drawing.Point(320, 0);
-            this.btnSettings.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnSettings.Location = new System.Drawing.Point(280, 0);
             this.btnSettings.Name = "btnSettings";
-            this.btnSettings.Size = new System.Drawing.Size(160, 86);
+            this.btnSettings.Size = new System.Drawing.Size(158, 69);
             this.btnSettings.TabIndex = 0;
             this.btnSettings.Text = "Settings";
             this.btnSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -114,10 +110,9 @@ namespace teampro
             this.btnCOINS.Font = new System.Drawing.Font("배달의민족 주아", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnCOINS.ForeColor = System.Drawing.Color.White;
             this.btnCOINS.Image = global::teampro.Properties.Resources.Coins;
-            this.btnCOINS.Location = new System.Drawing.Point(160, 0);
-            this.btnCOINS.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnCOINS.Location = new System.Drawing.Point(140, 0);
             this.btnCOINS.Name = "btnCOINS";
-            this.btnCOINS.Size = new System.Drawing.Size(160, 86);
+            this.btnCOINS.Size = new System.Drawing.Size(140, 69);
             this.btnCOINS.TabIndex = 0;
             this.btnCOINS.Text = "COINS";
             this.btnCOINS.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -134,9 +129,8 @@ namespace teampro
             this.btnNEWS.ForeColor = System.Drawing.Color.White;
             this.btnNEWS.Image = global::teampro.Properties.Resources.Earth1;
             this.btnNEWS.Location = new System.Drawing.Point(0, 0);
-            this.btnNEWS.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnNEWS.Name = "btnNEWS";
-            this.btnNEWS.Size = new System.Drawing.Size(160, 86);
+            this.btnNEWS.Size = new System.Drawing.Size(140, 69);
             this.btnNEWS.TabIndex = 0;
             this.btnNEWS.Text = "NEWS";
             this.btnNEWS.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -146,16 +140,15 @@ namespace teampro
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CadetBlue;
             this.CancelButton = this.button1;
-            this.ClientSize = new System.Drawing.Size(650, 626);
+            this.ClientSize = new System.Drawing.Size(569, 501);
             this.Controls.Add(this.pnlMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IsMdiContainer = true;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.MaximumSize = new System.Drawing.Size(1829, 1250);
+            this.MaximumSize = new System.Drawing.Size(1600, 1000);
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -168,13 +161,12 @@ namespace teampro
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel pnlMain;
         private System.Windows.Forms.Button button1;
         public System.Windows.Forms.Button btnSettings;
         public System.Windows.Forms.Button btnCOINS;
         public System.Windows.Forms.Button btnNEWS;
         private System.Windows.Forms.Button button2;
+        public System.Windows.Forms.Panel pnlMain;
     }
 }
 
