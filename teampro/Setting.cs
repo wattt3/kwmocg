@@ -47,11 +47,54 @@ namespace teampro
                     radioButton4.Checked = true;
                     break;
             }
+
+            if(mainForm.darkMode)
+            {
+                chkDarkMode.Checked = true;
+            }
         }
 
         // 다크모드 체크
         private void chkDarkMode_CheckedChanged(object sender, EventArgs e)
         {
+            if(chkDarkMode.Checked)
+            {
+                mainForm.darkMode = true;
+
+                mainForm.darkColor_R = 0;
+                mainForm.darkColor_G = 0;
+                mainForm.darkColor_B = 0;
+
+                mainForm.lightColor_R = 90;
+                mainForm.lightColor_G = 90;
+                mainForm.lightColor_B = 90;
+
+                this.BackColor = Color.FromArgb(90, 90, 90);
+
+                mainForm.btnSettings.BackColor = Color.FromArgb(mainForm.lightColor_R, mainForm.lightColor_G, mainForm.lightColor_B);
+                mainForm.btnNEWS.BackColor = Color.FromArgb(mainForm.darkColor_R, mainForm.darkColor_G, mainForm.darkColor_B);
+                mainForm.btnCOINS.BackColor = Color.FromArgb(mainForm.darkColor_R, mainForm.darkColor_G, mainForm.darkColor_B);
+                mainForm.pnlMain.BackColor = Color.FromArgb(mainForm.darkColor_R, mainForm.darkColor_G, mainForm.darkColor_B);
+            }
+            else
+            {
+                mainForm.darkMode = false;
+
+                mainForm.darkColor_R = 95;
+                mainForm.darkColor_G = 158;
+                mainForm.darkColor_B = 160;
+
+                mainForm.lightColor_R = 47;
+                mainForm.lightColor_G = 79;
+                mainForm.lightColor_B = 79;
+
+                this.BackColor = Color.FromArgb(95, 158, 160);
+
+                mainForm.btnSettings.BackColor = Color.FromArgb(mainForm.lightColor_R, mainForm.lightColor_G, mainForm.lightColor_B);
+                mainForm.btnNEWS.BackColor = Color.FromArgb(mainForm.darkColor_R, mainForm.darkColor_G, mainForm.darkColor_B);
+                mainForm.btnCOINS.BackColor = Color.FromArgb(mainForm.darkColor_R, mainForm.darkColor_G, mainForm.darkColor_B);
+                mainForm.pnlMain.BackColor = Color.FromArgb(mainForm.darkColor_R, mainForm.darkColor_G, mainForm.darkColor_B);
+            }
         }
 
         // 항상 위 체크

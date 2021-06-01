@@ -49,7 +49,7 @@ namespace teampro
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("배달의민족 주아", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(30, 28);
+            this.label1.Location = new System.Drawing.Point(26, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 37);
             this.label1.TabIndex = 0;
@@ -59,8 +59,7 @@ namespace teampro
             // 
             this.chkDarkMode.AutoSize = true;
             this.chkDarkMode.Font = new System.Drawing.Font("배달의민족 주아", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.chkDarkMode.Location = new System.Drawing.Point(50, 116);
-            this.chkDarkMode.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.chkDarkMode.Location = new System.Drawing.Point(44, 93);
             this.chkDarkMode.Name = "chkDarkMode";
             this.chkDarkMode.Size = new System.Drawing.Size(126, 35);
             this.chkDarkMode.TabIndex = 7;
@@ -72,8 +71,7 @@ namespace teampro
             // 
             this.chkTop.AutoSize = true;
             this.chkTop.Font = new System.Drawing.Font("배달의민족 주아", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.chkTop.Location = new System.Drawing.Point(50, 210);
-            this.chkTop.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.chkTop.Location = new System.Drawing.Point(44, 168);
             this.chkTop.Name = "chkTop";
             this.chkTop.Size = new System.Drawing.Size(113, 35);
             this.chkTop.TabIndex = 8;
@@ -85,8 +83,7 @@ namespace teampro
             // 
             this.chkOpacity.AutoSize = true;
             this.chkOpacity.Font = new System.Drawing.Font("배달의민족 주아", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.chkOpacity.Location = new System.Drawing.Point(50, 301);
-            this.chkOpacity.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.chkOpacity.Location = new System.Drawing.Point(44, 241);
             this.chkOpacity.Name = "chkOpacity";
             this.chkOpacity.Size = new System.Drawing.Size(103, 35);
             this.chkOpacity.TabIndex = 9;
@@ -96,11 +93,11 @@ namespace teampro
             // 
             // Opacity
             // 
-            this.Opacity.Location = new System.Drawing.Point(182, 301);
+            this.Opacity.Location = new System.Drawing.Point(159, 241);
             this.Opacity.Maximum = 109;
             this.Opacity.Minimum = 50;
             this.Opacity.Name = "Opacity";
-            this.Opacity.Size = new System.Drawing.Size(339, 26);
+            this.Opacity.Size = new System.Drawing.Size(297, 26);
             this.Opacity.TabIndex = 10;
             this.Opacity.Value = 50;
             this.Opacity.Visible = false;
@@ -110,7 +107,7 @@ namespace teampro
             // 
             this.labelTransparency.AutoSize = true;
             this.labelTransparency.Font = new System.Drawing.Font("배달의민족 주아", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.labelTransparency.Location = new System.Drawing.Point(543, 305);
+            this.labelTransparency.Location = new System.Drawing.Point(475, 244);
             this.labelTransparency.Name = "labelTransparency";
             this.labelTransparency.Size = new System.Drawing.Size(0, 27);
             this.labelTransparency.TabIndex = 11;
@@ -121,7 +118,7 @@ namespace teampro
             // 
             this.labelPercent.AutoSize = true;
             this.labelPercent.Font = new System.Drawing.Font("배달의민족 주아", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.labelPercent.Location = new System.Drawing.Point(585, 305);
+            this.labelPercent.Location = new System.Drawing.Point(512, 244);
             this.labelPercent.Name = "labelPercent";
             this.labelPercent.Size = new System.Drawing.Size(31, 27);
             this.labelPercent.TabIndex = 12;
@@ -132,8 +129,7 @@ namespace teampro
             // 
             this.chkPosition.AutoSize = true;
             this.chkPosition.Font = new System.Drawing.Font("배달의민족 주아", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.chkPosition.Location = new System.Drawing.Point(50, 386);
-            this.chkPosition.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.chkPosition.Location = new System.Drawing.Point(44, 309);
             this.chkPosition.Name = "chkPosition";
             this.chkPosition.Size = new System.Drawing.Size(112, 35);
             this.chkPosition.TabIndex = 13;
@@ -145,8 +141,9 @@ namespace teampro
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Font = new System.Drawing.Font("배달의민족 주아", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.radioButton1.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.radioButton1.Location = new System.Drawing.Point(180, 393);
+            this.radioButton1.ForeColor = System.Drawing.Color.Black;
+            this.radioButton1.Location = new System.Drawing.Point(158, 314);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(98, 25);
             this.radioButton1.TabIndex = 14;
@@ -160,8 +157,9 @@ namespace teampro
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("배달의민족 주아", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.radioButton2.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.radioButton2.Location = new System.Drawing.Point(290, 393);
+            this.radioButton2.ForeColor = System.Drawing.Color.Black;
+            this.radioButton2.Location = new System.Drawing.Point(254, 314);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(98, 25);
             this.radioButton2.TabIndex = 15;
@@ -175,8 +173,9 @@ namespace teampro
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Font = new System.Drawing.Font("배달의민족 주아", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.radioButton3.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.radioButton3.Location = new System.Drawing.Point(400, 393);
+            this.radioButton3.ForeColor = System.Drawing.Color.Black;
+            this.radioButton3.Location = new System.Drawing.Point(350, 314);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(97, 25);
             this.radioButton3.TabIndex = 16;
@@ -190,8 +189,9 @@ namespace teampro
             // 
             this.radioButton4.AutoSize = true;
             this.radioButton4.Font = new System.Drawing.Font("배달의민족 주아", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.radioButton4.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.radioButton4.Location = new System.Drawing.Point(510, 393);
+            this.radioButton4.ForeColor = System.Drawing.Color.Black;
+            this.radioButton4.Location = new System.Drawing.Point(446, 314);
+            this.radioButton4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(97, 25);
             this.radioButton4.TabIndex = 17;
@@ -206,7 +206,7 @@ namespace teampro
             this.labelTopMost.AutoSize = true;
             this.labelTopMost.Font = new System.Drawing.Font("배달의민족 주아", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.labelTopMost.ForeColor = System.Drawing.Color.IndianRed;
-            this.labelTopMost.Location = new System.Drawing.Point(177, 217);
+            this.labelTopMost.Location = new System.Drawing.Point(155, 174);
             this.labelTopMost.Name = "labelTopMost";
             this.labelTopMost.Size = new System.Drawing.Size(280, 21);
             this.labelTopMost.TabIndex = 18;
@@ -215,12 +215,12 @@ namespace teampro
             // 
             // Setting
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.CadetBlue;
             this.CausesValidation = false;
-            this.ClientSize = new System.Drawing.Size(645, 535);
+            this.ClientSize = new System.Drawing.Size(564, 428);
             this.Controls.Add(this.labelTopMost);
             this.Controls.Add(this.radioButton4);
             this.Controls.Add(this.radioButton3);
@@ -235,7 +235,6 @@ namespace teampro
             this.Controls.Add(this.chkDarkMode);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Setting";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Setting";
