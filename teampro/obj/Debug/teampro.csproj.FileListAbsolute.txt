@@ -34,3 +34,21 @@ C:\Users\Seungchan On\Desktop\kwmocg-main\teampro\obj\Debug\teampro.csproj.Gener
 C:\Users\Seungchan On\Desktop\kwmocg-main\teampro\obj\Debug\teampro.csproj.CoreCompileInputs.cache
 C:\Users\Seungchan On\Desktop\kwmocg-main\teampro\obj\Debug\teampro.exe
 C:\Users\Seungchan On\Desktop\kwmocg-main\teampro\obj\Debug\teampro.pdb
+C:\Users\DaeUk\Documents\GitHub\kwmocg\teampro\bin\Debug\teampro.exe.config
+C:\Users\DaeUk\Documents\GitHub\kwmocg\teampro\bin\Debug\teampro.exe
+C:\Users\DaeUk\Documents\GitHub\kwmocg\teampro\bin\Debug\teampro.pdb
+C:\Users\DaeUk\Documents\GitHub\kwmocg\teampro\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DaeUk\Documents\GitHub\kwmocg\teampro\bin\Debug\WebDriver.dll
+C:\Users\DaeUk\Documents\GitHub\kwmocg\teampro\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DaeUk\Documents\GitHub\kwmocg\teampro\bin\Debug\WebDriver.xml
+C:\Users\DaeUk\Documents\GitHub\kwmocg\teampro\obj\Debug\teampro.csprojAssemblyReference.cache
+C:\Users\DaeUk\Documents\GitHub\kwmocg\teampro\obj\Debug\teampro.Coin.resources
+C:\Users\DaeUk\Documents\GitHub\kwmocg\teampro\obj\Debug\teampro.Form1.resources
+C:\Users\DaeUk\Documents\GitHub\kwmocg\teampro\obj\Debug\teampro.News.resources
+C:\Users\DaeUk\Documents\GitHub\kwmocg\teampro\obj\Debug\teampro.Properties.Resources.resources
+C:\Users\DaeUk\Documents\GitHub\kwmocg\teampro\obj\Debug\teampro.Setting.resources
+C:\Users\DaeUk\Documents\GitHub\kwmocg\teampro\obj\Debug\teampro.csproj.GenerateResource.cache
+C:\Users\DaeUk\Documents\GitHub\kwmocg\teampro\obj\Debug\teampro.csproj.CoreCompileInputs.cache
+C:\Users\DaeUk\Documents\GitHub\kwmocg\teampro\obj\Debug\teampro.csproj.CopyComplete
+C:\Users\DaeUk\Documents\GitHub\kwmocg\teampro\obj\Debug\teampro.exe
+C:\Users\DaeUk\Documents\GitHub\kwmocg\teampro\obj\Debug\teampro.pdb
