@@ -80,13 +80,13 @@ namespace teampro
             {
                 mainForm.darkMode = false;
 
-                mainForm.darkColor_R = 95;
-                mainForm.darkColor_G = 158;
-                mainForm.darkColor_B = 160;
+                mainForm.darkColor_R = 47;
+                mainForm.darkColor_G = 79;
+                mainForm.darkColor_B = 79;
 
-                mainForm.lightColor_R = 47;
-                mainForm.lightColor_G = 79;
-                mainForm.lightColor_B = 79;
+                mainForm.lightColor_R = 95;
+                mainForm.lightColor_G = 158;
+                mainForm.lightColor_B = 160;
 
                 this.BackColor = Color.FromArgb(95, 158, 160);
 
