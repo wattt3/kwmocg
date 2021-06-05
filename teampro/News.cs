@@ -53,13 +53,9 @@ namespace teampro
                     var title = parseJson["items"][i]["title"].ToString();
                     title = title.Replace("&quot;", "\"");
 
-                    var description = parseJson["items"][i]["description"].ToString();
-                    description = description.Replace("&quot;", "\"");
-
                     var link = parseJson["items"][i]["link"].ToString();
 
                     item.SubItems.Add(title);
-                    // item.SubItems.Add(description);
                     item.SubItems.Add(link);
 
                     lvw_Result.Items.Add(item);
